@@ -8,11 +8,25 @@
     <link rel="stylesheet" href="./animate.min.css">
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="bg-info">
     <header class="text-white fw-bold bg-dark text-center p-3">WEATHER API</header>
-    <main></main>
-    <footer></footer>
+    <main class="py-3 px-1"><div class="d-flex">
+        <input type="text" class="form-control">
+        <button class="btn btn-info">check</button>
+    </div>
+    <div class="info">
+        <div class="d-flex justify-content-between align-items-center">
+        <i class="fa-solid fa-location"></i>
+        <p class="fw-bolder">Nigeria</p>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <i class="fa-solid fa-sun text-warning"></i>
+            <p class="fw-bold text-warning">36 C</p>
+            </div>
+    </div></main>
+    <footer  class="text-center bg-white ">&copy; copyright of &nbsp; <a href="">Tobiadeks</a></footer>
 
     <script src="./bootstrap.bundle.min.js"></script>
     <script src="./jquery-3.6.1.js"></script>
