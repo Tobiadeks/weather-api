@@ -1,0 +1,27 @@
+api is application programming interface
+
+var inputvalue = document.querySelector("#inputval");
+var namevalue = document.querySelector("#country");
+var tempvalue = document.querySelector("#tempvalue");
+var button = document.querySelector("#button");
+button.addEventListener("click",function () {console.log(inputvalue.value);
+
+fetch('api.openweathermap.org/data/2.5/weather?q='+inputvalue.value+'&appid=7c072fc9c23d57ea065da64bc44af7f0')
+.then(Response => Response.json)
+.then(data=>data.json)
+.catch(Error=>alert(failed))
+})
+
+fetch takes two parameters.
+the url and configuration
+
+there are five ways of sending request to the internet.
+get method
+push method
+post method
+patch method
+delete method
+(most search browsers use get)
+(to update info on an account, push or patch is used)
+delete request is used to delete an object
+but get and post is considered the most common
