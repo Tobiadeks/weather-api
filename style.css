@@ -13,7 +13,7 @@ footer{
 }
 
 body{background-color:rgb(156, 224, 241);
-    
+
 }
 main{
     min-width: 30vw;
@@ -25,3 +25,4 @@ main{
     left: 50vw;
     transform: translate(-50%,-50%);
 }
+open weather api
