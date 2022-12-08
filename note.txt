@@ -25,3 +25,6 @@ delete method
 (to update info on an account, push or patch is used)
 delete request is used to delete an object
 but get and post is considered the most common
+
+a library can be modified and you have total control
+a framework cant be modified and you dont have total control
